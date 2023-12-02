@@ -1,0 +1,73 @@
+
+body{
+ 
+    font-family: sans-serif ;
+    background-image: url('https://e0.pxfuel.com/wallpapers/11/898/desktop-wallpaper-black-mobile-dark-mobile.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+   
+        
+      }
+
+form{
+    width: 600px;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 #30475e 0 4px 8px #12475e;
+}
+h1{
+    text-align: center;
+}
+.box1{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin: 10px 0 15px 0;
+    background-color: rgb(113, 124, 124);
+    opacity: 0.5;
+    
+    
+}
+.box2{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 0 15px 0;
+    background-color: rgb(113, 124, 124);
+    opacity: 0.5;
+   
+}
+.div1{
+    display: inline-block;
+}
+.btn{
+    width: 49%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color:rgb(84, 92, 95);
+    font-size: 15px;
+    color: #fff;
+    text-decoration:none;
+    
+}
+@media screen and(max-width: 600px){
+    body{
+        padding: 20px;
+    }
+    form{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .div1{
+        display: block;
+    }
+    .box2{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
